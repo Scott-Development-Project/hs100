@@ -7,7 +7,10 @@ The [tp-link Wi-Fi Smart Plug model HS100](http://www.tp-link.us/products/detail
 
 The script below was graciously provided by @ggeorgovassilis in his [linux scripts repo](https://github.com/ggeorgovassilis/linuxscripts), with help from Thomas Baust. You can read a great description of the reverse engineering process and the development of the script [at George's blog here.](https://blog.georgovassilis.com/2016/05/07/controlling-the-tp-link-hs100-wi-fi-smart-plug/)
 
-## control the tp-link hs100 and hs110 wlan smart plug
+## use the gui
+
+
+## control the tp-link hs100 and hs110 wlan smart plug (terminal version)
 
 Script to connect over TCP/IP to an hs100/hs110 smart plug, switch it on and off and query status information. You'll need the IP address and port (was 9999 in my tests) and a command, e.g.:
 
